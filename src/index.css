@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #002339;
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+div {
+  margin: 10px;
+}

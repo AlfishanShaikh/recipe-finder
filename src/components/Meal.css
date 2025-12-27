@@ -1,0 +1,39 @@
+input {
+  width: 20rem;
+
+  font-size: 17px;
+  padding: 5px 10px;
+
+  outline: 0;
+
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+input:focus {
+  /* border-color: #7952b3; */
+  border-color: blue;
+  box-shadow: 0 0 0 3px rgb(121, 82, 179, 0.25);
+}
+
+#search {
+  padding: 5px 15px;
+  margin: 10px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 692px) {
+  #button {
+    display: flex;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 15px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #search {
+    width: 20rem;
+  }
+}
