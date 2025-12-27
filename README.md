@@ -113,6 +113,8 @@ Install dependencies:
 npm install
 ```
 
+---
+
 ### Running the Project
 
 Start the development server:
