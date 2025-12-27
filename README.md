@@ -129,6 +129,8 @@ Open your browser and visit:
 http://localhost:5173
 ```
 
+---
+
 ## How It Works
 
 The user enters a meal name or selects a cuisine
